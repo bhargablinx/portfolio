@@ -109,11 +109,18 @@ nav {
 }
 
 .profile-pic {
+    height: 200px;
     width: 200px;
     margin-top: 100px;
     margin-bottom: 30px;
     border-radius: 50%;
     border: 5px solid var(--txt-hover);
+    background-image: url("./assets/demo-profile-pic.png");
+    background-size: cover;
+}
+
+.profile-pic:hover {
+    background-image: url("./assets/demo-profile-pic-2.png");
 }
 
 .slogan {
