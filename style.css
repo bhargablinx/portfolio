@@ -167,3 +167,27 @@ nav {
     margin: 50px 0;
     color: #5858584d;
 }
+
+/* Project Section */
+
+.projects {
+    padding: 0 150px;
+}
+
+.pr-title {
+    font-size: 32px;
+    margin-bottom: 70px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 30px;
+    width: 320px;
+    height: 450px;
+    border-radius: 25px;
+    border: 2px solid var(--dark);
+}
